@@ -53,7 +53,12 @@ Aşağıda listelenen minimum uygulanabilir ürün (MVP) spesifikasyonlarını k
 Aşağıdaki soruları yanıtlayarak bu sprint'in kavramlarını anladığınızı gösterin. Her sorudan sonra yanıtlarınızı eklemek için bu belgeyi düzenleyin.
 
 1. DOM nedir?
+DOM (Document Object Model), web sayfalarındaki HTML, XML veya XHTML gibi belgelerin, tarayıcının anlayabileceği bir programlama arayüzü olarak tarayıcıda temsil edilmesi için bir standarttır. DOM, HTML veya XML belgesinin her bir öğesini bir nesne olarak ele alır ve bu öğelerin birbirleriyle olan ilişkilerini tanımlar. Bu, web sayfalarının dinamik olarak değiştirilmesine, öğelerin eklenmesine, kaldırılmasına veya değiştirilmesine olanak tanır.
 2. Bir event nedir?
+Event (olay), web sayfalarındaki etkileşimler için bir tetikleyici olarak kullanılan bir işlemdir. Örneğin, bir düğmeye tıklama, bir fare işaretçisi üzerinde gezinme veya bir klavye tuşuna basma gibi eylemler, belirli bir işlevi başlatmak için bir event tetikleyebilir.
 3. Bir event dinleyici(listener) nedir?
+Event listener (olay dinleyicisi), bir event tetiklendiğinde çağrılan bir işlevdir. Bir event listener, belirli bir olayın gerçekleştiğinde tetiklenecek bir işlev olarak belirtilir. Örneğin, bir düğmeye tıklama event'ini dinlemek için, düğmenin bir event listener'ı olmalıdır. Böylece, düğmeye tıklama event'i gerçekleştiğinde, event listener tetiklenir ve tanımlanan işlevi yürütür.
 4. Neden bir NodeList'i Array'e dönüştürelim??
+Bir NodeList, bir HTMLCollection gibi bir grup öğeyi içeren bir nesnedir ve Array gibi bir dizinin işlevselliğine sahip değildir. Bu nedenle, bir NodeList'i Array'e dönüştürmek, bir dizi işlevi kullanarak NodeList'in öğelerini işlemek için kullanılabilir hale getirir.
 5. Bileşen nedir?
+Bir bileşen, bir web sayfasındaki belirli bir görevi veya işlevi yerine getirmek için tasarlanmış bağımsız bir modüldür. Bileşenler, tekrar kullanılabilir ve ölçeklenebilir yapısıyla web geliştiricilerine hızlı bir şekilde bileşenleri ekleyebilme olanağı sağlar. Örneğin, bir dropdown menü, bir döngü, bir modal pencere gibi birçok farklı bileşen türü vardır ve her biri belirli bir işlevi yerine getirir.
